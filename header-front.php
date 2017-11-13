@@ -6,40 +6,29 @@
  *
  * @package haxel
  */
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+?>
 
-<?php wp_head(); ?>
-</head>
+<?php get_template_part('modules/header/head'); ?>
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'haxel' ); ?></a>
-	<div id="jumbosearch">
-		<span class="fa fa-remove closeicon"></span>
-		<div class="form">
-			<?php get_search_form(); ?>
-		</div>
-	</div>	
-	
-	<div id="top-bar">
-		<div class="top-bar-layer">
-		<!--
+
+    <?php get_template_part('modules/header/jumbosearch'); ?>
+
+    <div id="top-bar">
+        <div class="top-bar-layer">
+            <!--
 <div class="container">
 			<div id="top-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'top' ) ); ?>
 			</div>
 		</div>
 -->
-		</div>
-	</div>
-	
-	<header id="masthead" class="site-header" role="banner" data-parallax="scroll" data-speed="0.2" data-z-index="1" data-image-src="<?php header_image(); ?>">
+        </div>
+    </div>
+
+    <header id="masthead" class="site-header" role="banner" data-parallax="scroll" data-speed="0.2" data-z-index="1" data-image-src="<?php header_image(); ?>">
 	<div class="layer">
 		<div class="container">
 			<div class="site-branding">
@@ -69,21 +58,23 @@
 						  wp_nav_menu( array( 'theme_location' => 'primary', 'walker' => $walker ) ); ?>
 			</nav><!-- #site-navigation -->
 				
-		</div>	
-		
-		<div class="social-icons">
-			<?php get_template_part('social', 'fa'); ?>
-				 
 		</div>
+
+
+        <div class="social-icons">
+            <?php get_template_part('modules/social/social', 'fa'); ?>
+        </div>
+				 
+
 	</div>	
 	</header><!-- #masthead -->
 	
-	<?php get_template_part('slider', 'nivo' ); ?>
+	<?php get_template_part('featured-components/slider', 'nivo' ); ?>
 	
 	<div class="mega-container">
-		<?php get_template_part('featured', 'showcase' ); ?>
-		<?php get_template_part('featured', 'posts' ); ?>
-		<?php get_template_part('featured', 'content2'); ?>
-		<?php get_template_part('featured', 'content1'); ?>
+		<?php get_template_part('framework/featured-components/featured', 'showcase' ); ?>
+		<?php get_template_part('framework/featured-components/featured', 'posts' ); ?>
+		<?php get_template_part('framework/featured-components/featured', 'content2'); ?>
+		<?php get_template_part('framework/featured-components/featured', 'content1'); ?>
 	
 		<div id="content" class="site-content container">

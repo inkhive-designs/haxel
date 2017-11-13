@@ -1,0 +1,49 @@
+.page #primary-mono h1.entry-title {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position: relative;
+  @media screen and (max-width: 991px) {
+    margin-top: 20px;
+  }
+  span {
+    background: @background;
+    position: relative;
+    padding: 25px 15px;
+    padding-left: 0;
+    z-index: 1;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 96%;
+    height: 5px;
+    background: transparent;
+    border-top: 3px dashed darken(@background,7%);
+    position: absolute;
+    left: 2%;
+    top: 37%;
+    z-index: 0;
+  }
+}
+
+.edit-link {
+  display: inline-block;
+  float: right;
+}
+.page-header {
+  margin-top: 0px;
+  border-bottom: none;
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+}

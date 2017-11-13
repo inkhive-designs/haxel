@@ -1,0 +1,61 @@
+.haxel {
+  border-bottom: none;
+  &:nth-child(even) {
+    clear: left;
+  }
+  .pre-thumb {
+    padding-left: 0;
+    .post-categories {
+      a { color: lighten(@content,5%); }
+      font-weight: lighter;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: lighten(@content,5%);
+    }
+    .postedon {
+      text-transform: uppercase;
+      a { color: @s-accent; };
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    h1 {
+      font-weight: normal;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      a { color: black; }
+      font-size: 23px;
+      border-left: solid 3px @accent;
+      padding: 5px 15px;
+    }
+
+  }
+  .featured-thumb {
+    border-top: none;
+    img {
+      width: 100%;
+    }
+  }
+  .out-thumb {
+    padding-left: 0;
+    .entry-excerpt {
+      margin-top: 15px;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .readmore {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+  }
+
+}
+/* Code to make way for large first post on homepage */
+.blog.paged .haxel:nth-child(even) {
+  clear: none;
+}
+.blog.paged .haxel:nth-child(odd) {
+  clear: left;
+}

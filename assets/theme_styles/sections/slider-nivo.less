@@ -1,0 +1,83 @@
+/* top slider */
+#slider-bg {
+  background: url(../../images/pat.png) repeat;
+  width: 100%;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.slider-wrapper {
+
+  margin-bottom: -71px;
+  .nivoSlider {
+    box-shadow: none;
+    border: solid 1px #eee;
+  }
+  .nivo-controlNav {
+    position: relative;
+    bottom: 16px;
+    z-index: 9;
+    .transition(0.4s all ease);
+    a {
+      background-image: none;
+      width: 28px;
+      height: 3px;
+      margin: 0 5px;
+      background: @accent;
+      position: relative;
+      .transition(0.4s all ease);
+      &:hover {
+        background: fade(@accent, 50%);
+      }
+    }
+    .active {
+      top: -3px;
+    }
+  }
+  .nivo-caption {
+    bottom: 60px;
+    left: 55px;
+    right: auto;
+    font-family: inherit;
+    background: none;
+    @media screen and (max-width: 600px) {
+      .transform(scale(0.6));
+      bottom: 15px;
+      left: -50px;
+    }
+    a { text-decoration:  none;
+      border-bottom: none; }
+    .slide-title {
+      display: inline-block;
+      font-size: 20px;
+      padding: 7px 10px;
+      text-shadow: 0px 1px 0px black;
+      background: fade(@s-accent,80%);
+      font-weight: bold;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    }
+    .slide-desc span {
+      background: fade(@accent,60%);
+      /* border-left: solid 4px black; */
+      display: inline-block;
+      font-size: 16px;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+    .slide-cta span {
+      background: fade(white,40%);
+      font-weight: bold;
+      display: inline-block;
+      font-size: 14px;
+      margin-top: 5px;
+      padding: 4px 10px;
+      border: solid 2px white;
+      text-shadow: 1px 1px 0px black;
+      border-radius: 5px;
+      &:hover {
+        background: fade(White,80%);
+      }
+    }
+  }
+}
