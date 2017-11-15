@@ -1,6 +1,13 @@
 <?php
 function haxel_customize_register_header_settings($wp_customize) {
+    $wp_customize->get_section('header_image')->panel = 'haxel_header_panel';
     //Settings For Logo Area
+    $wp_customize->add_panel('haxel_header_panel',
+        array(
+            'title' => __('Header Settings', 'haxel'),
+            'priority' => 30,
+        )
+    );
 
     $wp_customize->add_setting(
         'haxel_hide_title_tagline',
@@ -15,6 +22,41 @@ function haxel_customize_register_header_settings($wp_customize) {
             'type'     => 'checkbox',
         )
     );
+
+    //Header Styles
+    $wp_customize->add_section( 'haxel_header_style' , array(
+        'title'      => __( 'Select A Header Style', 'haxel' ),
+        'panel' => 'haxel_header_panel',
+        'priority'   => 10,
+    ) );
+
+    $wp_customize->add_setting( 'haxel_header_style_set' , array(
+        'default'     => 'default',
+        'sanitize_callback' => 'haxel_sanitize_header_style'
+    ) );
+
+    $wp_customize->add_control(
+        'haxel_header_style_set',
+        array(
+            'label' => __('Select A Style.', 'haxel'),
+            'section' => 'haxel_header_style',
+            'settings' => 'haxel_header_style_set',
+            'priority' => 5,
+            'type' => 'select',
+            'choices' => array(
+                'default' => __('Default', 'haxel'),
+                'style1' => __('Style 1', 'haxel'),
+                'style2' => __('Style 2', 'haxel')
+            )
+        )
+    );
+
+    function haxel_sanitize_header_style ($input) {
+        if ( in_array($input, array('default', 'style1', 'style2') ) )
+            return $input;
+        else
+            return '';
+    }
 
     $wp_customize->add_setting(
         'haxel_branding_below_logo',
@@ -41,34 +83,8 @@ function haxel_customize_register_header_settings($wp_customize) {
     $wp_customize->add_section( 'title_tagline' , array(
         'title'      => __( 'Title, Tagline & Logo', 'haxel' ),
         'priority'   => 30,
+        'panel' => 'haxel_header_panel'
     ) );
-
-    $wp_customize->add_setting( 'haxel_logo_resize' , array(
-        'default'     => 100,
-        'sanitize_callback' => 'haxel_sanitize_positive_number',
-    ) );
-    $wp_customize->add_control(
-        'haxel_logo_resize',
-        array(
-            'label' => __('Resize & Adjust Logo','haxel'),
-            'section' => 'title_tagline',
-            'settings' => 'haxel_logo_resize',
-            'priority' => 6,
-            'type' => 'range',
-            'active_callback' => 'haxel_logo_enabled',
-            'input_attrs' => array(
-                'min'   => 30,
-                'max'   => 200,
-                'step'  => 5,
-            ),
-        )
-    );
-
-    function haxel_logo_enabled($control) {
-        $option = $control->manager->get_setting('custom_logo');
-        return $option->value() == true;
-    }
-
 
 
     //Replace Header Text Color with, separate colors for Title and Description

@@ -1,0 +1,208 @@
+@media screen and (min-width:768px) {
+  .header_style.style1 {
+    #masthead {
+      text-align: center;
+      min-height: 350px;
+      .layer {
+        min-height: 350px;
+      }
+      .site-branding {
+        padding: 20px 0px;
+        float: none;
+        text-align: center;
+
+        display: inline-block;
+      }
+      #site-navigation {
+        margin-top: 20px;
+        float: none;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        ul.menu {
+          li {
+            display: inline-block;
+            a{
+              min-width: 0;
+            }
+            ul.sub-menu, ul.children {
+              background: fade(black, 50%);
+              top: 62px;
+              text-align:left;
+              min-width:200px;
+              left: 0;
+              display: block;
+              .transition(0.4s all ease);
+              perspective: 1000;
+              -webkit-perspective: 1000;
+              transform-origin: top;
+              -webkit-transform-origin: top;
+              transform: perspective(350px) rotateX(-90deg);
+              -webkit-transform: perspective(350px) rotateX(-90deg);
+              -moz-transform: perspective(350px) rotateX(-90deg);
+              li ul {
+                transform-origin: left;
+                -webkit-transform-origin: left;
+                .transition(0.4s all ease);
+                left: 100%;
+                top: 0;
+                opacity: 0;
+                -webkit-transform: rotateY(65deg) !important;
+                transform: rotateY(65deg) !important;
+                -moz-transform: rotateY(65deg) !important;
+                li ul {
+                  display: none !important;
+                }
+              }
+              li:hover {
+                .transition(0.2s all ease);
+                /* -webkit-transition: 0.2s all ease !important; */
+                ul {
+                  opacity: 1;
+                  transform: rotateY(5deg) !important;
+                  -webkit-transform: rotateY(5deg) !important;
+                  -moz-transform: rotateY(5deg) !important;
+                }
+              }
+              a {
+                padding: 8px 15px;
+                font-weight: lighter;
+                font-size: 14px;
+                transition: 0.4s background ease, 0.6s padding ease;
+                &:hover {
+                  background: black;
+                  padding-left: 19px;
+                }
+              }
+            }
+            &:hover {
+              .transition(0.4s all ease);
+              -webkit-transition: 0.4s all ease !important;
+              ul.sub-menu, ul.children {
+                display: block;
+                transform: rotateX(0deg);
+                -webkit-transform: rotateX(0deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .header_style.style2 {
+    #masthead {
+      text-align: center;
+      min-height: 350px;
+      .layer {
+        min-height: 418px;
+      }
+      .site-branding {
+        padding: 20px 0px;
+        float: none;
+        text-align:center;
+
+        display: inline-block;
+      }
+      .social-icons {
+        bottom: 180px;
+      }
+    }
+    #site-navigation {
+      background: @header-color;
+      margin: 0px;
+      float: none;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      ul.menu {
+        min-width: 200px;
+        li {
+          display: inline-block;
+          margin-bottom:0;
+          &:hover {
+            a, .menu-desc {
+              color: @background;
+            }
+            .transition(0.4s all ease);
+            -webkit-transition: 0.4s all ease !important;
+            ul.sub-menu, ul.children {
+              display: block;
+              transform: rotateX(0deg);
+              -webkit-transform: rotateX(0deg);
+            }
+          }
+          a {
+            min-width: 0;
+            color: @content;
+            .menu-desc {
+              color: @content;
+            }
+            &:hover {
+              color: @background;
+              .menu-desc {
+                color: @background;
+              }
+            }
+          }
+          ul.sub-menu, ul.children {
+            background: fade(black, 50%);
+            top: 62px;
+            left: 0;
+            text-align:left;
+            min-width:200px;
+            display: block;
+            .transition( 0.4s all ease );
+            perspective: 1000;
+            -webkit-perspective: 1000;
+            transform-origin: top;
+            -webkit-transform-origin: top;
+            transform: perspective(350px) rotateX(-90deg);
+            -webkit-transform: perspective(350px) rotateX(-90deg);
+            -moz-transform: perspective(350px) rotateX(-90deg);
+            a {
+              padding: 8px 15px;
+              font-weight: lighter;
+              font-size: 14px;
+              transition: 0.4s background ease, 0.6s padding ease;
+              &:hover {
+                color: @background;
+                background: @content;
+                padding-left: 19px;
+              }
+            }
+            li {
+              &:hover {
+                .transition(0.2s all ease);
+                /* -webkit-transition: 0.2s all ease !important; */
+                ul {
+                  opacity: 1;
+                  transform: rotateY(5deg) !important;
+                  -webkit-transform: rotateY(5deg) !important;
+                  -moz-transform: rotateY(5deg) !important;
+                }
+              }
+              ul {
+                transform-origin: left;
+                -webkit-transform-origin: left;
+                .transition(0.4s all ease);
+                left: 100%;
+                top: 0;
+                opacity: 0;
+                -webkit-transform: rotateY(65deg) !important;
+                transform: rotateY(65deg) !important;
+                -moz-transform: rotateY(65deg) !important;
+                li ul {
+                  display: none !important;
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+

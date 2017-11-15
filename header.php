@@ -7,7 +7,6 @@
  * @package haxel
  */
 ?>
-
 <?php get_template_part('modules/header/head'); ?>
 
 <body <?php body_class(); ?>>

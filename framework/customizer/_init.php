@@ -16,6 +16,7 @@ function haxel_customize_register( $wp_customize ) {
 add_action( 'customize_register', 'haxel_customize_register' );
 
 require_once get_template_directory(). '/framework/customizer/_customizer_controls.php';
+require_once get_template_directory(). '/framework/customizer/_googlefonts.php';
 require_once get_template_directory(). '/framework/customizer/_layouts.php';
 require_once get_template_directory(). '/framework/customizer/_sanitization.php';
 require_once get_template_directory(). '/framework/customizer/_misc_scripts.php';
