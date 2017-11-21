@@ -65,7 +65,7 @@ class haxel_Recent_Posts extends WP_Widget {
 		   else: 
 		?>
 		
-		      <?php _('Oops, there are no posts.','haxel'); ?>
+		      <?php __('Oops, there are no posts.','haxel'); ?>
 		
 		<?php
 		   endif;
