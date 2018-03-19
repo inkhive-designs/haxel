@@ -25,6 +25,7 @@
       &:hover {
         a {
           background: darken(@sbg,3%);
+          color: white;
         }
       }
       ul li .menu-desc {
@@ -42,13 +43,15 @@
         transform: perspective(350px) rotateX(-90deg);
         -webkit-transform: perspective(350px) rotateX(-90deg);
         -moz-transform: perspective(350px) rotateX(-90deg);
+        opacity: 0;
+        visibility: hidden;
         li ul {
           transform-origin: left;
           -webkit-transform-origin: left;
           .transition( 0.4s all ease );
           left: 100%;
           top: 0;
-          opacity: 0;
+          opacity: 1;
           -webkit-transform: rotateY(65deg) !important;
           transform: rotateY(65deg) !important;
           -moz-transform: rotateY(65deg) !important;
@@ -69,6 +72,7 @@
         a {
           padding: 8px 15px;
           font-weight: lighter;
+          color: white;
           font-size: 14px;
           transition: 0.4s background ease, 0.6s padding ease;
           &:hover {
@@ -82,8 +86,13 @@
         -webkit-transition: 0.4s all ease !important;
         ul.sub-menu, ul.children {
           display: block;
+          visibility: visible;
+          opacity: 1;
           transform: rotateX(0deg);
           -webkit-transform: rotateX(0deg);
+          ul {
+            opacity: 0;
+          }
         }
       }
     }
