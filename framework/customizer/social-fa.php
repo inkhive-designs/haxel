@@ -4,6 +4,7 @@ function haxel_customize_register_social_icons($wp_customize) {
     $wp_customize->add_section('haxel_social_section', array(
         'title' => __('Social Icons','haxel'),
         'priority' => 44 ,
+        'panel' => 'haxel_header_panel'
     ));
 
     $social_networks = array( //Redefinied in Sanitization Function.

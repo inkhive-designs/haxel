@@ -1,10 +1,1 @@
-/* Customizer Styles */
-li#accordion-section-haxel_sec_upgrade h3:before {
-  content: "\f005";
-  font-family: "FontAwesome";
-}
-
-li#accordion-section-haxel_sec_upgrade_pro h3:before {
-  content: "\f0a2";
-  font-family: "FontAwesome";
-}
+.customize-pane-parent>li#accordion-section-haxel_sec_pro h3:before{content:"\f05a";font-family:"FontAwesome"}.haxel-important-links{background:#c90c0c;padding:5px 10px;color:#FFF!important;text-align:center;display:block;margin-top:5px;line-height:1.2;-webkit-box-shadow:none;box-shadow:none;font-style:normal;text-decoration:none}.haxel-important-links:hover{background:#810707}

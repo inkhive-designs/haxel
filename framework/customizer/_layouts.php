@@ -1,6 +1,7 @@
 <?php
 function haxel_customize_register_layouts ($wp_customize) {
     $wp_customize->get_section('colors')->panel = 'haxel_design_panel';
+    $wp_customize->get_section('background_image')->panel = 'haxel_design_panel';
     // Layout and Design
     $wp_customize->add_panel( 'haxel_design_panel', array(
         'priority'       => 40,
@@ -136,36 +137,6 @@ function haxel_customize_register_layouts ($wp_customize) {
         return $option->value() == false ;
 
     }
-
-    $wp_customize-> add_section(
-        'haxel_custom_codes',
-        array(
-            'title'			=> __('Custom CSS','haxel'),
-            'description'	=> __('Enter your Custom CSS to Modify design.','haxel'),
-            'priority'		=> 11,
-            'panel'			=> 'haxel_design_panel'
-        )
-    );
-
-    $wp_customize->add_setting(
-        'haxel_custom_css',
-        array(
-            'default'		=> '',
-            'sanitize_callback'    => 'wp_filter_nohtml_kses',
-            'sanitize_js_callback' => 'wp_filter_nohtml_kses'
-        )
-    );
-
-    $wp_customize->add_control(
-        new Haxel_Custom_CSS_Control(
-            $wp_customize,
-            'haxel_custom_css',
-            array(
-                'section' => 'haxel_custom_codes',
-                'settings' => 'haxel_custom_css'
-            )
-        )
-    );
 
     function haxel_sanitize_text( $input ) {
         return wp_kses_post( force_balance_tags( $input ) );

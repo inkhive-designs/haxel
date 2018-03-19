@@ -33,6 +33,14 @@ function haxel_custom_header_setup() {
 		'admin-head-callback'    => 'haxel_admin_header_style',
 		'admin-preview-callback' => 'haxel_admin_header_image',
 	) ) );
+    register_default_headers( array(
+            'default-image'    => array(
+                'url'            => '%s/assets/images/header.jpg',
+                'thumbnail_url'    => '%s/assets/images/header.jpg',
+                'description'    => __('Default Header Image', 'haxel')
+            )
+        )
+    );
 }
 add_action( 'after_setup_theme', 'haxel_custom_header_setup' );
 

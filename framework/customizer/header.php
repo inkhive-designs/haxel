@@ -27,7 +27,7 @@ function haxel_customize_register_header_settings($wp_customize) {
     $wp_customize->add_section( 'haxel_header_style' , array(
         'title'      => __( 'Select A Header Style', 'haxel' ),
         'panel' => 'haxel_header_panel',
-        'priority'   => 10,
+        'priority'   => 20,
     ) );
 
     $wp_customize->add_setting( 'haxel_header_style_set' , array(
@@ -82,7 +82,7 @@ function haxel_customize_register_header_settings($wp_customize) {
     //Logo Settings
     $wp_customize->add_section( 'title_tagline' , array(
         'title'      => __( 'Title, Tagline & Logo', 'haxel' ),
-        'priority'   => 30,
+        'priority'   => 10,
         'panel' => 'haxel_header_panel'
     ) );
 
