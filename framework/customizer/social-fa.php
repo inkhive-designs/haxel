@@ -14,7 +14,7 @@ function haxel_customize_register_social_icons($wp_customize) {
         'google-plus' => __('Google Plus','haxel'),
         'instagram' => __('Instagram','haxel'),
         'rss' => __('RSS Feeds','haxel'),
-        'vine' => __('Vine','haxel'),
+        'pinterest' => __('Pinterest','haxel'),
         'vimeo-square' => __('Vimeo','haxel'),
         'youtube' => __('Youtube','haxel'),
         'flickr' => __('Flickr','haxel'),
@@ -61,7 +61,7 @@ function haxel_customize_register_social_icons($wp_customize) {
             'google-plus',
             'instagram',
             'rss',
-            'vine',
+            'pinterest',
             'vimeo-square',
             'youtube',
             'flickr'

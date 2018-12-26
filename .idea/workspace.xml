@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Readme.md" description="&#10;### 1.0.1.0&#10;&#10;* Bugs Free&#10;" line="151" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b72eb8e-b80e-4342-846b-d876793e0967" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +27,8 @@
       <file leaf-file-name="theme-functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/theme-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2247">
-              <caret line="110" column="67" lean-forward="false" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="67" />
+            <state relative-caret-position="1848">
+              <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -44,7 +47,7 @@
       <file leaf-file-name="menu.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/theme_styles/sections/menu.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1704">
+            <state relative-caret-position="1953">
               <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
               <folding />
             </state>
@@ -54,22 +57,52 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1995">
-              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="210">
+              <caret line="10" column="260" lean-forward="false" selection-start-line="10" selection-start-column="260" selection-end-line="10" selection-end-column="260" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2485">
-                <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <first_editor relative-caret-position="581">
+                <caret line="156" column="11" lean-forward="false" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme_setup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/admin_modules/theme_setup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_misc_scripts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/customizer/_misc_scripts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social-fa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/customizer/social-fa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,8 +140,28 @@
       <file leaf-file-name="css-mods.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/css-mods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="62" column="95" lean-forward="false" selection-start-line="62" selection-start-column="95" selection-end-line="62" selection-end-column="95" />
+            <state relative-caret-position="472">
+              <caret line="53" column="91" lean-forward="false" selection-start-line="53" selection-start-column="91" selection-end-line="53" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_googlefonts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/customizer/_googlefonts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
               <folding />
             </state>
           </provider>
@@ -127,6 +180,9 @@
       <find>Oxane</find>
       <find>oxane</find>
       <find>plum</find>
+      <find>theme-options</find>
+      <find>blog</find>
+      <find>re</find>
     </findStrings>
     <replaceStrings>
       <replace>Haxel</replace>
@@ -151,7 +207,6 @@
         <option value="$PROJECT_DIR$/assets/theme_styles/sections/slider-nivo.less" />
         <option value="$PROJECT_DIR$/framework/admin_modules/reigistered_styles.php" />
         <option value="$PROJECT_DIR$/framework/admin_modules/register_widgets.php" />
-        <option value="$PROJECT_DIR$/framework/admin_modules/theme_setup.php" />
         <option value="$PROJECT_DIR$/framework/admin_modules/logo_compatibility.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/framework/admin_modules/register_styles.php" />
@@ -164,7 +219,6 @@
         <option value="$PROJECT_DIR$/modules/social/social-fa.php" />
         <option value="$PROJECT_DIR$/assets/theme_styles/sections/_init_sections.less" />
         <option value="$PROJECT_DIR$/framework/customizer/_init.php" />
-        <option value="$PROJECT_DIR$/framework/customizer/_googlefonts.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/framework/featured-components/slider-nivo.php" />
         <option value="$PROJECT_DIR$/header-front.php" />
@@ -172,10 +226,8 @@
         <option value="$PROJECT_DIR$/framework/widgets/recent-posts.php" />
         <option value="$PROJECT_DIR$/inc/extras.php" />
         <option value="$PROJECT_DIR$/inc/template-tags.php" />
-        <option value="$PROJECT_DIR$/framework/customizer/social-fa.php" />
         <option value="$PROJECT_DIR$/framework/customizer/_customizer_controls.php" />
         <option value="$PROJECT_DIR$/framework/customizer/_layouts.php" />
-        <option value="$PROJECT_DIR$/framework/customizer/_misc_scripts.php" />
         <option value="$PROJECT_DIR$/assets/theme_styles/admin.less" />
         <option value="$PROJECT_DIR$/assets/theme_styles/sections/header.less" />
         <option value="$PROJECT_DIR$/inc/custom-header.php" />
@@ -186,8 +238,12 @@
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/modules/conent/content-single.php" />
         <option value="$PROJECT_DIR$/modules/content/content-single.php" />
-        <option value="$PROJECT_DIR$/inc/css-mods.php" />
         <option value="$PROJECT_DIR$/assets/theme_styles/sections/menu.less" />
+        <option value="$PROJECT_DIR$/framework/admin_modules/theme_setup.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/_misc_scripts.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/social-fa.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/_googlefonts.php" />
+        <option value="$PROJECT_DIR$/inc/css-mods.php" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -221,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +324,12 @@
               <item name="haxel" type="b2602c69:ProjectViewProjectNode" />
               <item name="haxel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="haxel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haxel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="customizer" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -298,11 +359,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aldehyde" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -415,11 +477,13 @@
       <workItem from="1510724518825" duration="9121000" />
       <workItem from="1511248903368" duration="432000" />
       <workItem from="1521186225498" duration="8060000" />
+      <workItem from="1545796387303" duration="266000" />
+      <workItem from="1545798036450" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65322000" />
+    <option name="totallyTimeSpent" value="67699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -437,12 +501,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -537,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/admin_modules/theme_setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/admin_modules/register_styles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -558,18 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme_styles/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,25 +659,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4200">
           <caret line="206" column="49" lean-forward="false" selection-start-line="206" selection-start-column="49" selection-end-line="206" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt" />
-    <entry file="file://$PROJECT_DIR$/framework/customizer/_googlefonts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/customizer/social-fa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/customizer/_customizer_controls.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
@@ -642,13 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/customizer/_misc_scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -712,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,15 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/theme-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="110" column="67" lean-forward="false" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/css-mods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="62" column="95" lean-forward="false" selection-start-line="62" selection-start-column="95" selection-end-line="62" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme_styles/blog-layouts/haxel-layout.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,16 +796,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme_styles/sections/menu.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1704">
+        <state relative-caret-position="1953">
           <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/framework/admin_modules/theme_setup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1995">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="693">
+          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/_misc_scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/social-fa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/_googlefonts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="152" lean-forward="false" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/css-mods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="53" column="91" lean-forward="false" selection-start-line="53" selection-start-column="91" selection-end-line="53" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -807,11 +845,35 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2485">
-            <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <first_editor relative-caret-position="581">
+            <caret line="156" column="11" lean-forward="false" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="260" lean-forward="false" selection-start-line="10" selection-start-column="260" selection-end-line="10" selection-end-column="260" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/theme-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

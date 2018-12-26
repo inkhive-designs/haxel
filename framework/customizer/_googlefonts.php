@@ -9,7 +9,7 @@ function haxel_customize_register_google_fonts($wp_customize) {
         )
     );
 
-    $font_array = array('Ubuntu','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora');
+    $font_array = array('Ubuntu','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo 27px','Lora');
     $fonts = array_combine($font_array, $font_array);
 
     $wp_customize->add_setting(
@@ -21,7 +21,7 @@ function haxel_customize_register_google_fonts($wp_customize) {
     );
 
     function haxel_sanitize_gfont( $input ) {
-        if ( in_array($input, array('Ubuntu','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora') ) )
+        if ( in_array($input, array('Ubuntu','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo 27px','Lora') ) )
             return $input;
         else
             return '';

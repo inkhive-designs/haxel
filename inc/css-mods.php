@@ -47,11 +47,11 @@ function haxel_custom_css_mods() {
 	endif;
 	
 	if ( get_theme_mod('haxel_title_font') ) :
-		echo ".title-font, h1, h2, .section-title { font-family: ".esc_html(get_theme_mod('haxel_title_font','Ubuntu'))."; }";
+		echo ".title-font, h1, h2, .section-title { font-family: '".esc_html(get_theme_mod('haxel_title_font','Ubuntu'))."'; }";
 	endif;
 	
 	if ( get_theme_mod('haxel_body_font') ) :
-		echo "body { font-family: ".esc_html(get_theme_mod('haxel_body_font','Ubuntu'))."; }";
+		echo "body { font-family: '".esc_html(get_theme_mod('haxel_body_font','Ubuntu'))."'; }";
 	endif;
 	
 	if ( get_theme_mod('haxel_site_titlecolor') ) :
